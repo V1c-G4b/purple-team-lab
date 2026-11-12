@@ -1,0 +1,37 @@
+2026-11-11T17:42:36.218840+00:00 v1c sshd-session[1575]: Received disconnect from 10.10.10.4 port 33958:11: Bye Bye [preauth]
+2026-11-11T17:42:36.219001+00:00 v1c sshd-session[1575]: Disconnected from authenticating user suporte 10.10.10.4 port 33958 [preauth]
+2026-11-11T17:42:36.824050+00:00 v1c unix_chkpwd[1588]: password check failed for user (suporte)
+2026-11-11T17:42:36.867738+00:00 v1c unix_chkpwd[1585]: password check failed for user (suporte)
+2026-11-11T17:42:36.870404+00:00 v1c sshd-session[1579]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:36.951685+00:00 v1c unix_chkpwd[1586]: password check failed for user (suporte)
+2026-11-11T17:42:36.954216+00:00 v1c sshd-session[1577]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:36.955499+00:00 v1c sshd-session[1578]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:36.986013+00:00 v1c unix_chkpwd[1587]: password check failed for user (suporte)
+2026-11-11T17:42:36.988637+00:00 v1c sshd-session[1581]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:38.719309+00:00 v1c sshd-session[1578]: Failed password for suporte from 10.10.10.4 port 33976 ssh2
+2026-11-11T17:42:38.744885+00:00 v1c sshd-session[1579]: Failed password for suporte from 10.10.10.4 port 33988 ssh2
+2026-11-11T17:42:40.294084+00:00 v1c sshd-session[1577]: Failed password for suporte from 10.10.10.4 port 33972 ssh2
+2026-11-11T17:42:40.295807+00:00 v1c sshd-session[1581]: Failed password for suporte from 10.10.10.4 port 34002 ssh2
+2026-11-11T17:42:40.409720+00:00 v1c unix_chkpwd[1589]: password check failed for user (suporte)
+2026-11-11T17:42:40.502377+00:00 v1c unix_chkpwd[1592]: password check failed for user (suporte)
+2026-11-11T17:42:40.517487+00:00 v1c unix_chkpwd[1591]: password check failed for user (suporte)
+2026-11-11T17:42:40.611688+00:00 v1c sshd-session[1578]: Accepted password for suporte from 10.10.10.4 port 33976 ssh2
+2026-11-11T17:42:40.617111+00:00 v1c sshd-session[1578]: pam_unix(sshd:session): session opened for user suporte(uid=1001) by suporte(uid=0)
+2026-11-11T17:42:40.656327+00:00 v1c systemd-logind[1017]: New session '4' of user 'suporte' with class 'user' and type 'tty'.
+2026-11-11T17:42:40.821028+00:00 v1c (systemd): pam_unix(systemd-user:session): session opened for user suporte(uid=1001) by suporte(uid=0)
+2026-11-11T17:42:40.827754+00:00 v1c systemd-logind[1017]: New session '5' of user 'suporte' with class 'manager' and type 'unspecified'.
+2026-11-11T17:42:42.330310+00:00 v1c sshd-session[1581]: Failed password for suporte from 10.10.10.4 port 34002 ssh2
+2026-11-11T17:42:42.334230+00:00 v1c sshd-session[1577]: Failed password for suporte from 10.10.10.4 port 33972 ssh2
+2026-11-11T17:42:42.598591+00:00 v1c sshd-session[1674]: Connection closed by 10.10.10.4 port 33976
+2026-11-11T17:42:42.601535+00:00 v1c sshd-session[1578]: pam_unix(sshd:session): session closed for user suporte
+2026-11-11T17:42:42.616736+00:00 v1c systemd-logind[1017]: Session 4 logged out. Waiting for processes to exit.
+2026-11-11T17:42:42.621533+00:00 v1c systemd-logind[1017]: Removed session 4.
+2026-11-11T17:42:43.060648+00:00 v1c sshd-session[1579]: Failed password for suporte from 10.10.10.4 port 33988 ssh2
+2026-11-11T17:42:44.071801+00:00 v1c sshd-session[1581]: Connection closed by authenticating user suporte 10.10.10.4 port 34002 [preauth]
+2026-11-11T17:42:44.078273+00:00 v1c sshd-session[1581]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:44.081576+00:00 v1c sshd-session[1579]: Connection closed by authenticating user suporte 10.10.10.4 port 33988 [preauth]
+2026-11-11T17:42:44.082615+00:00 v1c sshd-session[1579]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:44.092285+00:00 v1c sshd-session[1577]: Connection closed by authenticating user suporte 10.10.10.4 port 33972 [preauth]
+2026-11-11T17:42:44.092808+00:00 v1c sshd-session[1577]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.4  user=suporte
+2026-11-11T17:42:53.525033+00:00 v1c (sd-pam): pam_unix(systemd-user:session): session closed for user suporte
+2026-11-11T17:42:53.525367+00:00 v1c systemd-logind[1017]: Removed session 5.
