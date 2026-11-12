@@ -1,22 +1,22 @@
 # Purple Team Lab
 
-O que é o lab: TODO
+What the lab is: TODO
 
-## Diagrama
+## Diagram
 
 TODO
 
-## Exercícios
+## Exercises
 
-| # | Exercício | Status |
-|---|-----------|--------|
-| 01 | [SSH brute force](exercicios/01-ssh-brute-force/README.md) | em andamento |
+| # | Exercise | Status |
+|---|----------|--------|
+| 01 | [SSH brute force](exercises/01-ssh-brute-force/README.md) | done |
 
-## Documentação do lab
+## Lab documentation
 
-- [Arquitetura](lab/arquitetura.md): as VMs, a labnet, o bastion e o porquê de cada escolha
-- [Setup](lab/setup.md): passo a passo para montar um lab igual
+- [Architecture](lab/architecture.md): the VMs, the labnet, the bastion and the reasoning behind each choice
+- [Setup](lab/setup.md): step-by-step guide to build the same lab
 
-## Notas
+## Notes
 
-- [Semana 01](notas/semana-01.md)
+- [Week 01](notes/week-01.md)

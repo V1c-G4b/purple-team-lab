@@ -1,11 +1,11 @@
 # Setup
 
-Passo a passo para montar um lab igual.
+Step-by-step guide to build the same lab.
 
-## Pré-requisitos
+## Prerequisites
 
 TODO
 
-## Passos
+## Steps
 
 1. TODO
